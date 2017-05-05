@@ -1,2 +1,2 @@
 # MachineLearning
-Practising Machine Learning
+Practicing Machine Learning
