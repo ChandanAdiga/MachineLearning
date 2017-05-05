@@ -1,0 +1,50 @@
+
+Expected folder structure:
+	/Implementation/
+	/Implementation/Classifier_NB.py
+	/Implementation/CSVConverter.py
+	/Implementation/data_set.txt
+	/Implementation/Main.py
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	1)	Make sure python set up is functional on the machine. This implementation is tested 
+	in Ubuntu 14.04LTS with python 2.7.6 or 3.4 running and recomend the same. 'python' command 
+	should be accessible in terminal from any location. You can test by running 'python' command 
+	from terminal. If installation is proper, you will see python version installed.
+		If there is any lower version of python or problem in seing python version,
+	 you can refer to set up instruction of  [Set up help links: http://askubuntu.com/questions/630142/do-we-have-to-install-python-or-it-is-already-installed-in-ubuntu-14-04lts]
+
+	Refer to screenshots 'Implementation/SpyderScreenshot.jpg' and 'Implementation/TerminalScreenshot.jpg'
+
+	Alternatively, one can use 'Spyder' python IDE; which is used to develop this project.
+
+	2) Make sure 'numpy' is downloaded for running python version. [You can use 
+	commands like : sudo apt-get install python3-numpy]
+
+	2) Make sure folder structure is as mentioned above(Root folder is 'Implementation')
+	 From command window, navigate into 'Implementation' folder.
+
+	3) Run 'python Main.py' or specifically 'python3.4 Main.py' command.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Tweeks on current data set:
+	/Implementation/Classifier_NB.py:
+		- loadData() : Change testing & training set : Play with 
+	condition 'if(index%3==0)' to change rows added to testing/training sets. Even condition can be removed to
+	have entire available data set as training set.
+
+		- model() implements initial classification of training set.
+	
+		- classify() and computeProb() are the core implementations of Naive Bayes classification technique.
+	
+		- predict() method takes array object as an input and tries to predict/classify given attributes to one of 3 classes based on current model.
+
+	/Main.py:
+		-Order of API/methods invocation is important. i.e first load the data set, then build model and then classify. If interested one can pass attribute values to calssify/predict to which class they might belong to.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Author: Chandan Adiga
+All rights reserved.
