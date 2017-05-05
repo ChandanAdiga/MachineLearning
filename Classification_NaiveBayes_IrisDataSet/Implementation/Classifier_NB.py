@@ -3,9 +3,6 @@
 Created on Fri Mar 31 12:37:00 2017
 
 @author: Chandan Adiga
-ID: 2016HT12329
-Email: 2016HT12329@wilp.bits-pilani.ac.in
-BITS Pilani. WILP Division.
 
 Either you can import CSVConverter or design your own which provides API parse() 
 which inturn returns a two dimensional array of input data where each row is an array(size 5, 4 columns of attributes and 5th column is class name) of attributes of type float/int.

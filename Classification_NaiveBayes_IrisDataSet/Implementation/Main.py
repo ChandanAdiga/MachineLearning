@@ -3,9 +3,6 @@
 Created on Fri Mar 31 15:55:57 2017
 
 @author: Chandan Adiga
-ID: 2016HT12329
-Email: 2016HT12329@wilp.bits-pilani.ac.in
-BITS Pilani. WILP Division.
 
 
 This file is the entry point.

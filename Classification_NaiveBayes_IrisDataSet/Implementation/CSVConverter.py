@@ -3,9 +3,6 @@
 Created on Fri Mar 31 11:57:54 2017
 
 @author: Chandan Adiga
-ID: 2016HT12329
-Email: 2016HT12329@wilp.bits-pilani.ac.in
-BITS Pilani. WILP Division.
 
 This module is designed assuming:
 1) first two rows are to be neglected as they contain 
