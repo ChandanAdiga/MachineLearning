@@ -1,17 +1,17 @@
 
 
-[Instructions](Classification_NaiveBayes_IrisDataSet/Instructions.txt)
+[Instructions](Instructions.txt)
 
-[Data Set](Classification_NaiveBayes_IrisDataSet/Implementation/data_set.txt)
+[Data Set](Implementation/data_set.txt)
 
-[Report](Classification_NaiveBayes_IrisDataSet/Report.pdf)
+[Report](Report.pdf)
 
 ------
 ### Screenshot: Spyder Editor
 
-<img src="Classification_NaiveBayes_IrisDataSet/Implementation/SpyderScreenshot.jpg"/>
+<img src="Implementation/SpyderScreenshot.jpg"/>
 
 ------
 ### Screenshot: Terminal
 
-<img src="Classification_NaiveBayes_IrisDataSet/Implementation/TerminalScreenshot.jpg"/>
+<img src="Implementation/TerminalScreenshot.jpg"/>
